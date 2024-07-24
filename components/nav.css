@@ -1,0 +1,135 @@
+/* Navbar styles */
+.navbar {
+  background: rgba(0, 0, 0, 0); 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-left: 100px;
+}
+
+.nav-links {
+  display: flex;
+  margin-left: 80px;
+}
+
+.nav-links a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: gray;
+}
+
+.auth-buttons {
+  display: flex;
+}
+
+.auth-buttons .sign-in,
+.auth-buttons .sign-up {
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.auth-buttons .sign-in {
+  border: 1px solid white;
+}
+
+.auth-buttons .sign-in:hover {
+  background-color: white;
+  color: #ef4364;
+}
+
+.auth-buttons .sign-up {
+  background-color: #ef4364;
+}
+
+.auth-buttons .sign-up:hover {
+  background-color: #ffffff;
+  color: #ef4364;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.9); /* Semi-transparent background */
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    color: white;
+    margin: 10px 0;
+    font-size: 24px;
+  }
+
+  .auth-buttons {
+    display: none;
+  }
+  .logo img {
+   display: none;
+    
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    z-index: 11;
+  }
+
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+
+  .hamburger .change:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .hamburger .change:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger .change:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+

@@ -1,0 +1,90 @@
+.footer {
+  background-color: #011931;
+  color: #fff;
+  padding: 20px 40px;
+  font-family: 'Poppins', sans-serif;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+
+.footer-left h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-right {
+  max-width: 600px;
+}
+
+.footer-logo img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-right p {
+  margin-bottom: 20px;
+  
+
+}
+.quick-links ul{
+  margin-top: 20px;
+}
+
+.quick-links ul,
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-bottom{
+  align-items: center;
+  text-align: center;
+  background-color:  #011120;
+  color: #f8f9fa;
+  padding: 20px 40px;
+}
+
+.contact-info ul{
+  margin-top: 20px;
+}
+.Bolders{
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+
+
+.contact-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  
+  }
+
+  .footer-content > div {
+    margin-bottom: 20px;
+  }
+
+
+
+  .footer-logo img {
+    width: 80px;
+  }
+
+  .quick-links ul li, .contact-info ul li {
+    margin-bottom: 10px;
+  }
+}

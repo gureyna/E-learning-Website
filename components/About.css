@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@100;200;300;400&display=swap');
+
+.About .background1 {
+  background-image: url('https://d2wlcd8my7k9h4.cloudfront.net/media/thumbnails/posts/covers/Nearshoring_is_the_best_option_for_Outsourcing.jpeg.800x800_q95_crop-smart_upscale.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.title1 {
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  
+}
+
+.About .overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #160206af;
+}
+
+.About .content1 {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.About .description1 {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.txt {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #011931;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+/* src/ObjectivesMission.css */
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Poppins', sans-serif;
+  padding: 100px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100%;
+  max-width: 45%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.objectives {
+  background-color: #f15361;
+}
+
+.mission {
+  background-color: #011931;
+}
+
+.icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* src/CompanyGrowth.css */
+.growth-container {
+  text-align: center;
+  padding: 80px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.growth-container h5 {
+  color: #f15361; /* Adjust the color as needed */
+  font-weight: bold;
+}
+
+.growth-container h2 {
+  margin-top: 0;
+}
+
+.growth-container p {
+  color: #666;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.stat {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 20%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.value {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.label {
+  color: #666;
+}
+
+.titleAbout1 {
+  color: #fa4a7f;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+
+.header1 {
+  margin-bottom: 40px;
+}
+
+
+/* src/About.css */
+
+.home-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.image-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.image {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.text-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-section h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.text-section .highlight {
+  color: red;
+}
+
+.text-content h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.text-content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.text-content li {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .About .background1 {
+    height: 40vh;
+  }
+  .home-container{
+    flex-direction: column;
+  }
+
+  .title1 {
+    font-size: 2rem;
+  }
+
+  .container1 {
+    padding: 50px;
+    max-width: none;
+
+  }
+  .objectives {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 20px;
+  }
+  .mission{
+    width: 100%;
+    max-width: none;
+    margin-bottom: 20px;
+
+  }
+
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .stats {
+    flex-direction: column;
+  }
+
+  .stat {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .About .background1 {
+    height: 30vh;
+  }
+
+  .title1 {
+    font-size: 1.5rem;
+  }
+
+  .growth-container {
+    padding: 40px;
+  }
+
+  .txt {
+    font-size: 0.875rem;
+  }
+
+  .growth-container h5 {
+    font-size: 1rem;
+  }
+
+  .growth-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .stats {
+    flex-direction: column;
+  }
+
+  .stat {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+

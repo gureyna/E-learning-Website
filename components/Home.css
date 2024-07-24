@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@100;200;300;400&display=swap');
+
+.home .background {
+    background-image: url('https://blog.writersgig.com/wp-content/uploads/2021/01/what-is-ux-writing.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .title{
+    font-family: 'Poppins', sans-serif;	
+    font-weight: 800;
+    color: white;
+    text-align: center;
+  }
+  
+  .home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0e00007a;
+  }
+  
+  .home .content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  .home .title {
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+  
+  .home .subtitle {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .home .description {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .home .buttons .get-started{
+    background: white;
+    color: #1a202c;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .home .buttons .get-started {
+    margin-right: 10px;
+    background-color: #ef4364;
+    color: white;
+    
+  }
+  
+  .home .buttons .get-started:hover {
+    background-color: gray;
+  }
+  
+
+
+/* ABOUT
+} */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .text-content {
+    margin-top: 40px;
+    
+  }
+ 
+  
+  .text-content h1 {
+    font-size: 2em;
+    color: #003366;
+  }
+  
+  .text-content .highlight {
+    color: #e63946;
+  }
+  
+  .info-section {
+    margin-top: 20px;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+
+  
+
+  .image-content img {
+    width: 100%;
+    height: auto;
+  }
+  
+ 
+.abtoutfeature{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin-top: 80px;
+    
+}
+.site-img{
+    width: 400px;
+    height: 200px;
+
+}
+.titleAbout{
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;	
+    font-weight: 800;
+}
+strong{
+    font-family: 'Poppins', sans-serif;	
+    font-weight: 800;
+    color: #003366;
+    
+}
+
+/* ABOUT END */
+
+
+
+/* Course Start */
+.app {
+
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;	
+  font-weight: 800;
+  margin-top: 150px;
+}
+/* src/components/CourseCard.css */
+.course-card {
+  background-color: #003366;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 16px;
+  max-width: 300px;
+  color: white;
+}
+
+.course-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.course-content {
+  padding: 16px;
+}
+
+.course-category {
+  display: block;
+  color: #aaaaaa;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.course-title {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.course-rating {
+  color: #ffdd00;
+  font-size: 14px;
+}
+
+.course-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+/* src/components/CourseList.css */
+.course-list {
+  text-align: center;
+  
+  padding: 20px;
+  min-height: 100vh;
+  color: white;
+}
+.course-list h2{
+  color: #003366;
+
+}
+.course-list p{
+  color: #ef4364;
+
+}
+
+.course-list h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.course-list p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+
+/* src/Services.css */
+.services {
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;	
+  background-color: #f8f9fa;
+}
+
+.services h2 {
+  color: #ef4364;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.services p {
+  color: #003366;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.service-item {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #ff6347;
+}
+
+.service-item h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.service-item p {
+  color: #555;
+  font-size: 1rem;
+}
+.services h2{
+  color: #ef4364;
+}
+.services p{
+  color: #003366;
+}
+
+
+/* src/LatestNews.css */
+.latest-news {
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;	
+  margin-top: 40px;
+  /* Light background color */
+}
+
+.latest-news .updates {
+  color: #007bff;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.latest-news h2 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.latest-news .description {
+  color: #555;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.latest-news .see-more {
+  background: none;
+  border: 2px solid #ef4364; /* Tomato color for border */
+  color: #ef4364; /* Tomato color for text */
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.latest-news .see-more:hover {
+  background-color: #ef4364;
+  color: #fff;
+}
+
+
+/* wewoked */
+
+.brands-container {
+  text-align: center;
+  padding: 50px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;	
+  
+}
+
+.brands-container h2 {
+  font-size: 18px;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.brands-container h1 {
+  font-size: 32px;
+  color: #ef4364;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.brands-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.brand-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .abtoutfeature {
+    flex-direction: column;
+    
+  }
+
+  .abtoutfeature .site-img, .abtoutfeature .text-content {
+    width: 100%;
+    
+  }
+ 
+  .text-content{
+    margin-top: 300px;
+  }
+ 
+
+  .app .courses-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services .services-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}

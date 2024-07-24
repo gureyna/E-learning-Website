@@ -1,0 +1,68 @@
+/* src/components/CourseDetails.css */
+
+.now {
+    background-color: #011931;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;	
+
+  
+  }
+  
+ 
+  
+  .course-curriculum {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #011931;
+    border-radius: 10px;
+  }
+  
+  .course-title1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .course-curriculum ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-curriculum li {
+    background-color: #10263f;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .course-curriculum .day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .buttons .cart{
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ef4364;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+  }
+  
+  .course-curriculum .day span:first-child {
+    font-weight: bold;
+  }
+  
+  .course-curriculum .content {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .course-curriculum .content li {
+    padding: 5px 0;
+  }
+  
